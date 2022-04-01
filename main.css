@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  
+}
+.header {
+  font-size: 40px;
+  text-align: center;
+  border-style: solid red;
+  border-radius: 50px;
+  margin: 0;
+}
+
+.pickStarter {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  border-style: solid red;
+  border-radius: 50px;
+  padding: 0;
+  color: yellow;
+  background-color: blue;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.jumbo {
+  /* background-image: URL(https://wallpaperaccess.com/full/8621.jpg); */
+  height: 100vh;
+  width: 100%;
+  margin: 0%;
+  background-size: cover;
+}
+
+.selectStarter {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 1%;
+}
+
+#pkmn1:hover {
+  transform: scale(1.25);
+  background-color: #1e70ce;
+}
+
+#pkmn2:hover {
+  transform: scale(1.25);
+  background-color: #FF9F45;
+}
+
+#pkmn3:hover {
+  transform: scale(1.25);
+  background-color: #1bce6c;
+}
+
+#form {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: inline-block;
+  color: yellow;
+  background-color: blue;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+  border-style: solid red;
+  border-radius: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#container {
+  /* display: flex;
+  flex-direction: column; */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: yellow;
+  background-color: blue;
+  padding: 0px;
+  font-size: 20px;
+  border-style: solid red;
+  border-radius: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.movesHeader {
+  font-weight: bolder;
+}
+
+.writeMoves {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}

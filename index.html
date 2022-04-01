@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show me your moves</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <section class="jumbo">
+        <h1 class=header><h1>
+            <!-- <a href="example.com"> -->
+              <img src="https://fontmeme.com/permalink/220331/ea6769b6bf6937586ce0c2887f3e87d7.png" alt="Pokémon Move Learner" />
+            <!-- </a> -->
+          </h1>
+
+        <h2 class="pickStarter">Choose A Starter To Teach A Move!</h2>
+
+        <div class="selectStarter">
+            <button id="pkmn1" , class="starter"></button>
+            <button id="pkmn2" , class="starter"></button>
+            <button id="pkmn3" , class="starter"></button>
+        </div>
+
+        <form id="form">
+            <label for="fname">Learn a Generation 1 move:</label><br>
+            <input type="text" id="moveName" name="fname"><br>
+            <input type="submit" value="submit">
+        </form>
+
+        <div id="container">
+            <ul class="movesHeader">Current Moves</ul>
+            <ul id="move1" class="moveset"></ul>
+            <ul id="move2" class="moveset"></ul>
+            <ul id="move3" class="moveset"></ul>
+            <ul id="move4" class="moveset"></ul>
+        </div>
+
+        <div class="writeMoves">
+        <ul id="writeBulbMoves"></ul>
+        <ul id="writeCharMoves"></ul>
+        <ul id="writeSquirtMoves"></ul>
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
